@@ -1,6 +1,6 @@
 //%attributes = {"invisible":true}
-C_TEXT:C284($cr; $text)
-C_OBJECT:C1216($oRange)
+var $cr; $text : Text
+var $oRange : Object
 
 $cr:=Char:C90(Carriage return:K15:38)
 

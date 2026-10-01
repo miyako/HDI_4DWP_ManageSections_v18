@@ -18,10 +18,7 @@ Case of
 			ST SET ATTRIBUTES:C1093(_Descriptions{_TabTitles}; ST Start text:K78:15; ST End text:K78:16; Attribute text size:K65:6; 16)
 		End if 
 		
-		C_COLLECTION:C1488(selected)
 		selected:=New collection:C1472
-		
-		C_BOOLEAN:C305(bTrace)
 		bTrace:=False:C215
 		
 	: (Form event code:C388=On Page Change:K2:54)

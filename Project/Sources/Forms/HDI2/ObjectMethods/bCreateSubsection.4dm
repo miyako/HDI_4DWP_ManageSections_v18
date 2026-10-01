@@ -1,4 +1,4 @@
-C_OBJECT:C1216($section; $subsection)
+var $section; $subsection : Object
 
 If (bTrace)
 	TRACE:C157

@@ -1,6 +1,6 @@
 //%attributes = {"invisible":true}
-C_TEXT:C284($cr; $text)
-C_OBJECT:C1216($oRange)
+var $cr; $text : Text
+var $oRange : Object
 
 $cr:=Char:C90(Carriage return:K15:38)
 
@@ -9,7 +9,7 @@ wpDoc:=WP New:C1317
 $oRange:=WP Text range:C1341(wpDoc; wk start text:K81:165; wk end text:K81:164)
 
 // Section 1
-$text:="Section 1"+$cr+\
+$text:=Localized string("SampleSection")+" 1"+$cr+\
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam enim sapien, dapibus id dapibus ac, blandit eget eros. Donec iaculis justo et dapibus suscipit. Proin mollis tortor eros, interdum malesuada dolor mollis at. Cras dictum finibus arcu. Viv"+"amus malesuada erat ultricies enim pellentesque, nec egestas sem tempus. Vestibulum mollis bibendum mauris. Donec gravida massa at urna dapibus, eget tempus mi tempor. Integer tincidunt sed massa id congue. Maecenas ut malesuada ligula. Pellentesque a"+"c mi dolor. Nulla molestie leo sit amet nisl finibus tempus"+$cr+\
 "Nam sed sollicitudin risus. Nullam mollis maximus laoreet. Cras convallis mattis justo. In posuere mattis ante, eget rutrum ligula tristique ac. Donec mattis efficitur nisi, at mattis ligula viverra non. Pellentesque in aliquam eros. Pellentesque fini"+"bus condimentum odio id ultrices. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut ipsum risus, condimentum sed rutrum et, malesuada non ante."+$cr+\
 "Nunc finibus, urna ac malesuada molestie, nulla quam commodo purus, nec cursus turpis ipsum sit amet lacus. Maecenas ultricies est sed nunc molestie, sed consectetur lorem vestibulum. Vestibulum feugiat ultrices semper. Maecenas mollis lorem non sem p"+"ulvinar, vel hendrerit nunc iaculis. Mauris nec ultrices lorem, vitae iaculis libero. Sed ullamcorper nisl vel est pretium sagittis. Donec lacinia consequat molestie. Nunc ut congue justo. Nullam est turpis, tempor vel dui at, vestibulum dapibus dolor"+". Nulla facilisi. Praesent sit amet est lorem."+$cr
@@ -17,7 +17,7 @@ WP SET TEXT:C1574($oRange; $text; wk append:K81:179)
 WP Insert break:C1413($oRange; wk section break:K81:187; wk append:K81:179)
 
 // Section 2
-$text:="Section 2"+$cr+\
+$text:=Localized string("SampleSection")+" 2"+$cr+\
 "Cras accumsan commodo felis sed sollicitudin. Suspendisse at efficitur ex. Suspendisse potenti. Vestibulum varius sodales tortor, eu molestie tortor pellentesque nec. Proin tempor ornare lacinia. Proin volutpat elit eu felis interdum varius. Sed volut"+"pat arcu quis felis pulvinar, eget venenatis est bibendum. Mauris bibendum pretium tortor nec fermentum. Quisque tempus tincidunt tristique. Maecenas a lobortis est, eget eleifend nisi. Etiam ligula lectus, mattis vel congue sed, ultricies non tellus."+" Phasellus vitae orci arcu."+$cr+\
 "Vivamus accumsan consectetur ornare. Donec elementum, nisl eu viverra vestibulum, lacus mauris rutrum lacus, vitae hendrerit purus ligula a quam. Phasellus vel lectus ut mi fringilla porttitor vel sed mi. Proin eu diam convallis, euismod ante vitae, d"+"ictum mauris. Praesent et velit nec diam sagittis semper. In porta justo odio, vitae maximus eros elementum id. Vivamus ultricies augue sed lorem maximus congue. Duis a erat aliquet, pretium diam a, convallis enim."+$cr+\
 "Fusce feugiat interdum justo, sit amet imperdiet orci euismod nec. Mauris elementum ultricies justo ut cursus. Nam vestibulum feugiat leo id efficitur. Donec luctus felis in urna semper iaculis. Nulla sit amet augue tempus, tincidunt lorem bibendum, c"+"ongue ipsum. Morbi sit amet finibus orci, non malesuada dolor. In aliquam ligula sit amet blandit volutpat. Suspendisse potenti. Pellentesque non nisl a eros interdum dignissim. Donec pharetra gravida lobortis. Sed elementum auctor metus ut placerat."+$cr
@@ -25,7 +25,7 @@ WP SET TEXT:C1574($oRange; $text; wk append:K81:179)
 WP Insert break:C1413($oRange; wk section break:K81:187; wk append:K81:179)
 
 // Section 3
-$text:="Section 3"+$cr+\
+$text:=Localized string("SampleSection")+" 3"+$cr+\
 "Fusce nec iaculis metus, eu auctor erat. Morbi sit amet augue pellentesque, scelerisque lacus vitae, pretium tellus. Morbi dapibus dapibus nisi, eget pharetra enim aliquet nec. Vivamus vel scelerisque quam. Etiam ultrices suscipit est, ac ullamcorper "+"augue tempor sed. Proin vel augue ligula. Duis vehicula ultricies velit. Morbi semper eget sapien et tempus. Sed est massa, porta a ex id, gravida feugiat ex. Sed molestie, enim at convallis rhoncus, felis lacus consequat est, sit amet sagittis risus "+"ex eu nunc. Vivamus sapien risus, auctor ut sapien nec, luctus congue lectus. Vivamus molestie odio ex, vel cursus felis sollicitudin sed. Maecenas vel euismod odio. Nunc vitae libero pretium ex viverra hendrerit."+$cr+\
 "Sed ultrices erat vel placerat sollicitudin. Vivamus fermentum non augue vel ultricies. Cras auctor ante at orci pellentesque, at posuere tellus gravida. Mauris pellentesque urna ex, eu mattis nibh malesuada eget. Vivamus lacus mauris, efficitur ac au"+"ctor ac, auctor in arcu. Mauris malesuada massa in elementum tristique. Praesent in turpis vel tellus semper eleifend. Aenean at tristique justo. Nulla cursus dui id dui porttitor porta. In vestibulum dapibus elit a vulputate. Lorem ipsum dolor sit am"+"et, consectetur adipiscing elit. Vivamus blandit rhoncus magna, quis tempor enim hendrerit nec. Nam sed vestibulum purus."+$cr+\
 "Suspendisse bibendum risus in massa cursus, non facilisis lacus rutrum. Quisque varius enim sit amet pulvinar sollicitudin. Mauris porta posuere lorem at tincidunt. Nam at sem eu mi pharetra auctor sit amet id erat. Sed dictum mi ac erat ultrices temp"+"or. Nulla consequat sollicitudin lacus eu laoreet. Nam felis massa, rhoncus vel vehicula quis, sagittis et purus. Etiam finibus, massa a gravida porttitor, elit neque elementum purus, nec vehicula tellus lectus sed libero. Morbi id dui neque. Donec eg"+"et sodales enim. Nunc porta tortor a dolor auctor, et tristique nunc mollis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus "+"mus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."+$cr+\

@@ -1,4 +1,4 @@
-C_OBJECT:C1216($section; $subsection)
+var $section; $subsection : Object
 
 If (bTrace)
 	TRACE:C157
@@ -14,5 +14,5 @@ $subsection:=WP Get subsection:C1582($section; wk left page:K81:204)
 If ($subsection#Null:C1517)
 	WP SET ATTRIBUTES:C1342($subsection; wk background color:K81:20; "#87CEEB")
 Else 
-	ALERT:C41("Please, create left and right subsection.")
+	ALERT:C41(Localized string("AlertCreateSubsections"))
 End if 

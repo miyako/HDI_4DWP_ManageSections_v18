@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="HDI2" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="HDI2_HeaderIndex" resname="HDI2_HeaderIndex">
+				<source>Index</source>
+				<target>インデックス</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderFirstChar" resname="HDI2_HeaderFirstChar">
+				<source>First character</source>
+				<target>先頭文字</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderLastChar" resname="HDI2_HeaderLastChar">
+				<source>Last character</source>
+				<target>末尾文字</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Step1" resname="HDI2_Step1">
+				<source>1. Retrieve a list of sections.</source>
+				<target>1. セクションの一覧を取得します。</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Step2" resname="HDI2_Step2">
+				<source>2. Select a section</source>
+				<target>2. セクションを選択します</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Step3" resname="HDI2_Step3">
+				<source>3. Set an attribute for the selected section.</source>
+				<target>3. 選択したセクションの属性を設定します。</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LabelColumns" resname="HDI2_LabelColumns">
+				<source>Number of columns:</source>
+				<target>段数:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LabelMargins" resname="HDI2_LabelMargins">
+				<source>Page margins:</source>
+				<target>ページ余白:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnGetSections" resname="HDI2_BtnGetSections">
+				<source>WP Get sections</source>
+				<target>WP Get sections</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnOneColumn" resname="HDI2_BtnOneColumn">
+				<source>1 column</source>
+				<target>1段</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnTwoColumns" resname="HDI2_BtnTwoColumns">
+				<source>2 columns</source>
+				<target>2段</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnMargin25" resname="HDI2_BtnMargin25">
+				<source>2.5 cm</source>
+				<target>2.5 cm</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnMargin4" resname="HDI2_BtnMargin4">
+				<source>4 cm</source>
+				<target>4 cm</target>
+			</trans-unit>
+			<trans-unit id="HDI2_CheckTrace" resname="HDI2_CheckTrace">
+				<source>Trace</source>
+				<target>トレース</target>
+			</trans-unit>
+			<trans-unit id="HDI2_SubStep1" resname="HDI2_SubStep1">
+				<source>1. Create subsections for left and right pages.</source>
+				<target>1. 左右のページのサブセクションを作成します。</target>
+			</trans-unit>
+			<trans-unit id="HDI2_SubStep2" resname="HDI2_SubStep2">
+				<source>2. Apply a blue background to the left page.</source>
+				<target>2. 左ページに青い背景を適用します。</target>
+			</trans-unit>
+			<trans-unit id="HDI2_SubStep3" resname="HDI2_SubStep3">
+				<source>3. Apply an orange background to the right page.</source>
+				<target>3. 右ページにオレンジ色の背景を適用します。</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnCreateSubsection" resname="HDI2_BtnCreateSubsection">
+				<source>Create subsection</source>
+				<target>サブセクションを作成</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnBlue" resname="HDI2_BtnBlue">
+				<source>Blue background</source>
+				<target>青い背景</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnOrange" resname="HDI2_BtnOrange">
+				<source>Orange background</source>
+				<target>オレンジ色の背景</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
